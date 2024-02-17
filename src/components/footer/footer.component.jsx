@@ -2,7 +2,7 @@ import reactIcon from "../../assets/icons/react-icon.png"
 import mongoDBIcon from "../../assets/icons/mongodb-icon.png"
 import expressIcon from "../../assets/icons/express.png"
 import nodeIcon from "../../assets/icons/node-js-icon.png"
-import linkedInIcon from "../../assets/icons/linkedIn.png"
+import linkedInIcon from "../../assets/icons/linkedin.png"
 import githubIcon from "../../assets/icons/github.png"
 import "./footer.styles.css"
 
