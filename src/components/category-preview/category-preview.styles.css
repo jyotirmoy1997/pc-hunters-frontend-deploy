@@ -1,0 +1,37 @@
+.category-preview-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 95%; 
+  }
+
+  .category-preview-container h2{
+    text-align: center;
+  }
+  .category-preview-container .title {
+    font-size: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  .category-preview-container .title:hover{
+    color:#344E86;
+  }
+  
+  .category-preview-container .preview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+  }
+
+@media (max-width : 500px){
+  .category-preview-container .preview {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

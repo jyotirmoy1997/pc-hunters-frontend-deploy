@@ -1,0 +1,20 @@
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    width: 95%;
+    margin: 0 auto; 
+}
+
+.category-title{
+    text-align: center;
+}
+
+@media (max-width : 500px){
+    .category-container{
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        margin: 0 auto; 
+    }
+}
