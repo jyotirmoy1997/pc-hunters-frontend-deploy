@@ -18,7 +18,7 @@ const CheckOut = () => {
     const navigate = useNavigate()
     const makePayment = async (token) => {
         try {
-            const response = await axios.post("http://localhost:5000/api/v1/payment", { user : userId, products : cartItems})
+            const response = await axios.post("/api/v1/payment", { user : userId, products : cartItems})
             window.location.href = response.data.url
         } catch (error) {
             console.log(error)
