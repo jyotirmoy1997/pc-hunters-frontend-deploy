@@ -16,7 +16,7 @@ const CategoriesPreview = () => {
     const categories = useSelector(selectCategories)
     const Products = useSelector(selectProducts)
     
-    if(!categories){
+    if(!categories || !Array.isArray(categories) || !Products || !Array.isArray(Products)){
         return(
             <div className="shop-container" >
                 <BounceLoader
@@ -27,6 +27,7 @@ const CategoriesPreview = () => {
                     aria-label="Loading Spinner"
                     data-testid="loader"
                 />
+                <p>Please reload if loading is taking a lot of time...</p>
             </div>
         )
     }

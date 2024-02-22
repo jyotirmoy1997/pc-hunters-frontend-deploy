@@ -18,7 +18,7 @@ const Category = () => {
     const { category } = useParams()
     const products = useSelector(selectProducts).filter((product) => product.category === category)
     
-    if(!products){
+    if(!products || !Array.isArray(products)){
         return(
             <div>
                 <BounceLoader
