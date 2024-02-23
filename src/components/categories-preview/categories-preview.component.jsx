@@ -27,7 +27,7 @@ const CategoriesPreview = () => {
                     aria-label="Loading Spinner"
                     data-testid="loader"
                 />
-                <p>Please reload if loading is taking a lot of time...</p>
+                <p className="reload-text">Please reload if loading is taking a lot of time...</p>
             </div>
         )
     }

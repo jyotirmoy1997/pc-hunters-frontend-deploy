@@ -29,6 +29,7 @@ const Category = () => {
                     aria-label="Loading Spinner"
                     data-testid="loader"
                 />
+                <p className="reload-text">Please reload if loading is taking a lot of time...</p>
             </div>)
     }
     else if(category && products.length < 1){
