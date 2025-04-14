@@ -37,7 +37,7 @@ export const categories = [
     {
       id:8,
       title:'Cabinets',
-      image: 'https://www.gizmodo.com.au/wp-content/uploads/sites/2/2023/01/03/gaming-pc-build.png?quality=80&resize=832,468'
+      image: 'https://press.asus.com/assets/w_1266,h_844/7301774e-2daf-4b2e-acd5-93a32a259bad/1820_1213.jpg'
     },
     
   ]
